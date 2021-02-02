@@ -56,8 +56,25 @@
   justify-content: space-between;
 }
 
-.itemsGallery {
+.productList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
+}
+
+.saleItem.soldOut img {
+  opacity: 0.5;
+}
+
+.saleItem.soldOut::before {
+  content: "Sold Out";
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: black;
+  position: absolute;
+  padding: 1rem;
+}
+
+.discounted {
+  text-align: right;
 }
