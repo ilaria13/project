@@ -1,0 +1,25 @@
+.mainNav {
+  display: grid;
+}
+
+.primaryLink {
+  background-color: burlywood;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.primaryLink li {
+  margin-right: 2rem;
+}
+
+.logo {
+  background-color: aqua;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+}
