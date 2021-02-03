@@ -58,17 +58,20 @@
   text-align: right;
 }
 
-@media screen and (min-width: 700px) {
-  .product {
+. @media screen and (min-width: 700px) {
+  section {
+    margin-left: 3rem;
+    margin-right: 3rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
-  .product img {
+  .productImg {
+    opacity: 0.3;
     grid-column: 1 / 2;
   }
 
   .infoItem {
-    grid-column: 3/5;
+    grid-column: 3 / 5;
   }
 }
